@@ -4,11 +4,11 @@
       Real World Events
     </nuxt-link>
     <nav>
-      <nuxt-link to="/">
+      <nuxt-link :to="{ name: 'index' }">
         List
       </nuxt-link>
       |
-      <nuxt-link to="/create">
+      <nuxt-link :to="{ name: 'event-create' }">
         Create
       </nuxt-link>
     </nav>
